@@ -55,6 +55,11 @@ body {
             color: white;
             box-shadow: 0 4px 15px rgba(255, 77, 109, 0.4);
         }
+#yes-button {
+            background-color: #ff4d6d;
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 77, 109, 0.4);
+        }
 
         #no-button {
             background-color: #a0a0a0;
