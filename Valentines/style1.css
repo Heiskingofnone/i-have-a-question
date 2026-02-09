@@ -5,34 +5,37 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: #ffe4e1; /* Rose White */
+            background-image: url('./Photos/Gemini_Generated_Image_jyhs7sjyhs7sjyhs.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow: hidden;
             text-align: center;
-            padding: 20px;
+            padding: 5px;
         }
         h1 {
-            color: #d02a50;
+            color: #ffe4e1;
             font-size: 2rem;
-            margin-bottom: 30px;
+            margin-bottom: 0px;
             transition: all 0.3s ease;
         }
         p{
-            color: #d02a50;
+            color: #ffe4e1;
             font-size: 1rem;
-            margin-bottom: 30px;
+            margin-bottom: 0px;
             transition: all 0.3s ease;
         
         }
         .gif-container img {
-            max-width: 500px;
-            min-height: 200px;
+            max-width: 250px;
+            min-height: 100px;
             border-radius: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         .buttons {
             display: flex;
-            gap: 20px;
+            gap: 10px;
             position: relative;
             width: 100%;
             justify-content: center;

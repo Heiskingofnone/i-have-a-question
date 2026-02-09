@@ -15,13 +15,13 @@ const mainGif = document.querySelector('#display-gif');
             noBtn.style.top = `${y}px`;
         }
 
-        // Desktop: Move on hover
-        noBtn.addEventListener('mouseover', moveButton);
-
+        
         // Mobile: Move on touch
-        noBtn.addEventListener('touchstart', (e) => {
-            e.preventDefault(); // Stop the click from firing
-            moveButton();
+        noBtn.addEventListener('click', () => {
+             questionText.innerText = "OH, ARE YOU SURE? 😜";
+            mainGif.src = "https://tenor.com/en-GB/view/drake-shrug-sad-disappointed-gif-3654380992546976451.gif" ; // dissapointed GIF
+            
+           
         });
 
         // The Success Moment
@@ -35,8 +35,8 @@ const mainGif = document.querySelector('#display-gif');
             });
 
             // 2. Update the Page
-            questionText.innerText = "Yay! See you soon! ❤️";
-            mainGif.src = "gif/Love You Hearts GIF by Mino Games.gif" ; // Success GIF
+            questionText.innerText = "Im going to give you the world darling! ❤️";
+            mainGif.src = "https://tenor.com/en-GB/view/ride-your-wave-kimi-to-nami-ni-noretara-ride-your-wave2019-2019-gkids-gif-25660833.gif" ; // Success GIF
             
             // 3. Clean up
             noBtn.classList.add('hidden');
