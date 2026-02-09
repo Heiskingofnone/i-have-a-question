@@ -1,0 +1,58 @@
+body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffe4e1; /* Rose White */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d02a50;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        .gif-container img {
+            max-width: 250px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            position: relative;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            touch-action: manipulation; /* Optimizes for mobile taps */
+        }
+        #yes-button {
+            background-color: #ff4d6d;
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 77, 109, 0.4);
+        }
+
+        #no-button {
+            background-color: #a0a0a0;
+            color: white;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Classes for the celebration */
+        .hidden {
+            display: none;
+        }
