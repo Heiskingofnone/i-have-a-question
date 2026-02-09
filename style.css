@@ -47,12 +47,11 @@ body {
             transition: transform 0.2s;
             touch-action: manipulation; /* Optimizes for mobile taps */
         }
-        #yes-button {
+        #next-button {
             background-color: #ff4d6d;
             color: white;
             box-shadow: 0 4px 15px rgba(255, 77, 109, 0.4);
         }
-
         #no-button {
             background-color: #a0a0a0;
             color: white;
