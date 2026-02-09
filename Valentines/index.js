@@ -36,7 +36,7 @@ const mainGif = document.querySelector('#display-gif');
 
             // 2. Update the Page
             questionText.innerText = "Yay! See you soon! ❤️";
-            mainGif.src = "gif/Love You Hearts GIF by Mino Games.gif" alt="celebration"; // Success GIF
+            mainGif.src = "gif/Love You Hearts GIF by Mino Games.gif" ; // Success GIF
             
             // 3. Clean up
             noBtn.classList.add('hidden');
